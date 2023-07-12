@@ -19,7 +19,7 @@ app.use(errorHandler);
 const categoriesRoutes = require("./router/category");
 const productRoute = require("./router/productRoute");
 const userRoute = require("./router/userRoute");
-const orderRoute = require("./router/order")
+const orderRoute = require("./router/order");
 
 app.use("/categories", categoriesRoutes);
 app.use("/products", productRoute);
@@ -39,3 +39,4 @@ mongoose
 app.listen(3000, () => {
   console.log("server is running http://localhost:3000");
 });
+fjoierjgioejgiorjtgiorjpijdfvik;
