@@ -18,8 +18,10 @@ router.get("/:id", async (req, res) => {
     res
       .status(500)
       .json({ message: "The category with the given ID was not found." });
+  }else{
+      res.status(200).json(category);
+
   }
-  res.status(200).send(category);
 });
 
 router.post("/", async (req, res) => {
